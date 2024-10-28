@@ -1,10 +1,10 @@
 import DefaultPic from '../../../Pictures/default images/General_Default.png';
 import SearchBar from './SearchBar';
-import {
-    useNavigate
-} from "react-router-dom";
+
 import React, { useState, useEffect } from 'react';
 import FlexBox from './FlexBox';
+
+import { useNavigate } from 'react-router-dom';
 
 function GridBoxes({ className }) {
     const navigate = useNavigate();

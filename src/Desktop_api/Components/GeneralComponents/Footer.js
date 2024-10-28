@@ -27,7 +27,7 @@ function Footer(){
                       <li className="
                         text-gray-400  
                         p-2"> 
-                        <a href="#" className="hover:text-pink-700 active:text-pink-500">{item.text}</a>
+                        <a href="/" className="hover:text-pink-700 active:text-pink-500">{item.text}</a>
                       </li>)
                     }
 
